@@ -1,0 +1,53 @@
+# Archives & Temporary files
+*.zip
+*.tar.gz
+*.rar
+analyze_out.txt
+*.log
+
+# Python / FastAPI Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/__pycache__/
+backend/results/
+backend/results_video/
+backend/uploads/
+backend/uploads_video/
+backend/training_uploads/
+backend/training_frames/
+backend/custom_training/
+backend/datasets/
+backend/debug_loaded.jpg
+backend/inspections.db
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Flutter / Dart / Android / iOS Build Artifacts
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.pub-cache/
+**/.pub/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/ios/Flutter/.last_build_id
+**/ios/Pods/
+**/.idea/
+**/*.iml
+
+# IDE configs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
